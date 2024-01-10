@@ -17,7 +17,7 @@ class Run():
         cprint("******************************** Choice device **********************************")
         self.device = t.device("cuda" if t.cuda.is_available() else "cpu")
         print("!!!", self.device, "is ready!!!")
-
+        print("1234")
         # 加载路径
         self.filepath = args.data_path + args.dataset + '/{}_{}'.format(args.domain_S, args.domain_T)
         # kaggle
